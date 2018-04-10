@@ -6,6 +6,5 @@ pipeline:
   publish:
     image: plugins/docker
     repo: wodog/test
-    auto_tag: true
     username: wodog
     password: nishizhu
