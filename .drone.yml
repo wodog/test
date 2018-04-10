@@ -5,6 +5,7 @@ pipeline:
       - npm install
   publish:
     image: plugins/docker
-    repo: wodog/test
-    username: wodog
-    password: nishizhu
+    repo: 120.25.92.210:5000/wodog/test
+    auto_tag: true
+    registry: 120.25.92.210:5000
+    insecure: true
