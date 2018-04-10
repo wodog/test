@@ -3,3 +3,9 @@ pipeline:
     image: node:6.6.0
     commands:
       - npm install
+  publish:
+    image: plugins/docker
+    repo: wodog/test
+    auto_tag: true
+    username: wodog
+    password: nishizhu
