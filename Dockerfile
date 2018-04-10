@@ -1,1 +1,1 @@
-FROM golang:1.9.2
+FROM 120.25.92.210:5000/golang:1.9.2
