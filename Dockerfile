@@ -1,1 +1,1 @@
-FROM drone/drone:0.8
+FROM 120.25.92.210:5000/golang:1.9.2
