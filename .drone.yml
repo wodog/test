@@ -6,9 +6,6 @@ pipeline:
   publish:
     image: plugins/docker
     repo: 120.25.92.210:5000/wodog/test
-    tags:
-      - 1.1.1
-      - 1.1.2
-      - 1.1.3
+    auto_tag: true
     registry: 120.25.92.210:5000
     insecure: true
